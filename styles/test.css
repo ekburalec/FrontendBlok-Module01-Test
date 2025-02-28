@@ -1,0 +1,20 @@
+body {
+    background-color: #282c34;
+    color: #d19a66;
+}
+
+hr {
+    color: #e5c07b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #e06c75;
+}
+
+li {
+    color: #98c379;
+}
+
+a {
+    color: #56b6c2;
+}
