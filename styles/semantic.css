@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5 ,h6 {
     letter-spacing: 0.01em;
 }
 
+h1 + section {
+    background-color: moccasin;
+}
+
 .header {
     display: flex;
     border-bottom: 1px solid #000;
@@ -35,7 +39,7 @@ ul {
     margin: 0;
 }
 
-ul > li {
+ul > li:not(:last-child) {
     margin-right: 30px;
 }
 
@@ -67,11 +71,17 @@ section {
     margin-bottom: 20px;
 }
 
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 15px;
+}
+
 .post {
     padding-bottom: 20px;
 }
 
-footer {
+.footer {
     font-size: 13px;
     padding: 0 20px;
 }
