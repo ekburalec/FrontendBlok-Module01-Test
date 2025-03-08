@@ -37,10 +37,7 @@ ul {
     list-style-type: none;
     padding-left: 0;
     margin: 0;
-}
-
-ul > li:not(:last-child) {
-    margin-right: 30px;
+    gap: 30px;
 }
 
 a {
@@ -65,6 +62,12 @@ a {
     padding: 10px 20px;
 }
 
+.results {
+    display: grid;
+    grid-template-columns: repeat(3, 280px);
+    gap: 10px;
+}
+
 section {
     background-color: lavender;
     padding: 5px 20px;
@@ -72,9 +75,12 @@ section {
 }
 
 .link {
+    display: block;
     background-color: rebeccapurple;
     color: white;
     padding: 8px 15px;
+    text-align: center;
+    margin-top: 5px;
 }
 
 .post {
